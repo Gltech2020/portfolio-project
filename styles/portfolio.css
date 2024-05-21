@@ -11,10 +11,14 @@
  h1{
     font-size: 96px;
  }
- 
+ h2 {
+    font-size: 64px;
+ }
  p{
     font-family: "Poppins", sans-serif;
     font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
  }
  .hero{
     background-color: #F9F7FE;
@@ -45,3 +49,12 @@
     line-height: 27px;
     padding: 15px 30px; /* space around the words in the button*/
  }
+.btn-branding-outline{
+    background: #6c63ff ;
+    border: 1px solid #6c63ff;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+
+}
