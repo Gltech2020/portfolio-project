@@ -40,10 +40,11 @@
     <div class="container"><!-- to the text on the side(a grid) -->
         
     <div class="row">
-        <div class="col-6"> <!-- have col-6 so they can be two side by side -->
+        <div class="col d-none d-lg-block"> <!-- d-none is don't display pic if screen is small, isplay if it's large-->
 <img src="images/yogurt.png" class="img-fluid" alt=""> <!-- img-fluid makes image responsive -->
         </div>
-        <div class="col-6">
+        <div class="col">
+            <div class="project-description"> <!-- add/ reduce space between the text and the image -->
             
             <h2 class="mb-5"> <!-- add space on the bottom of text -->
                 Yogurt project
@@ -55,11 +56,59 @@
                 Duden flows by
             </p>
             <a href="" class="btn btn-branding-outline"> Learn more</a> <!-- create a class for the button for styling -->
-
+          </div>
         </div>
-
-    </div>
     
+    </div>
+    <div class="row">
+        
+        <div class="col">
+            <div class="project-description"> <!-- add/ reduce space between the text and the image -->
+    
+                <h2 class="mb-5"> <!-- add space on the bottom of text -->
+                    Weather App
+                </h2>
+                <p class="mb-5 text-muted"> <!-- text-muted is a bootstrap class for opacity -->
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                    blind texts.
+                    Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
+                    small river
+                    named
+                    Duden flows by
+                </p>
+                <a href="" class="btn btn-branding-outline"> Learn more</a>
+                <!-- create a class for the button for styling -->
+            </div>
+            
+        </div>
+    <div class="col d-none d-lg-block"> <!-- d-none is don't display pic if screen is small, isplay if it's large-->
+        <img src="images/weather.png" class="img-fluid" alt=""> <!-- img-fluid makes image responsive -->
+    </div>
+    </div>
+<div class="row">
+    <div class="col d-none d-lg-block"> <!-- d-none is don't display pic if screen is small, isplay if it's large-->
+        <img src="images/dictionary.png" class="img-fluid" alt=""> <!-- img-fluid makes image responsive -->
+    </div>
+    <div class="col">
+        <div class="project-description"> <!-- add/ reduce space between the text and the image -->
+
+            <h2 class="mb-5"> <!-- add space on the bottom of text -->
+                Dictionary
+            </h2>
+            <p class="mb-5 text-muted"> <!-- text-muted is a bootstrap class for opacity -->
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.
+                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A
+                small river
+                named
+                Duden flows by
+            </p>
+            <a href="" class="btn btn-branding-outline"> Learn more</a>
+            <!-- create a class for the button for styling -->
+        </div>
+    </div>
+
+</div>
 </div>
 </body>
 </html>
