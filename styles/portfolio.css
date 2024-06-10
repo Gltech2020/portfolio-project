@@ -107,10 +107,12 @@ nav a { /* targets the links on the navigation bar*/
    color: #272142;
    transition: all 100ms ease-in-out;
 }
-nav a:hover, nav li.active a {
-   color:#272142
-
+nav a:hover, nav li.active a{
+   color:#6c63ff
 }
+
+
+
 @media(max-width:960px) { /* the styles under media apply when the screen resolution is under 960px*/
    h1{
       font-size: 60px;
