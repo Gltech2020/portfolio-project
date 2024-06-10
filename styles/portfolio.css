@@ -92,6 +92,9 @@ font-family: "Poppins",sans-serif ;
 .logo{
    max-width: 150px;
 }
+h4{
+   font-size: 48px;
+}
 nav ul{
    padding: 0;
    margin: 0;
@@ -110,8 +113,30 @@ nav a { /* targets the links on the navigation bar*/
 nav a:hover, nav li.active a{
    color:#6c63ff
 }
+footer .contact-box{
+   background: #F9F7FE;
+   padding: 30px 120px;
+   border-radius: 10px;
+}
+footer{
+   margin: 60px 0;
+}
 
+footer .social-links a{ /* targets each individual link */
+margin: 0 20px;
+padding: 10px 14px;
+border-radius: 50%;
+font-size: 18px;
+transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+   color: white;
+   background: #272142;
 
+}
+.btn{
+   font-size: 18px;
+}
 
 @media(max-width:960px) { /* the styles under media apply when the screen resolution is under 960px*/
    h1{
