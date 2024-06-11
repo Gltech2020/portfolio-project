@@ -24,7 +24,7 @@
  .hero{
     background-color: #F9F7FE;
     text-align: center;
-    padding: 160px 20px; /* add space above and below the section */
+    padding: 80px 20px; /* add space above and below the section */
  }
 
  /*use hero p{} to target the paragraph that is in the section hero*/
@@ -43,7 +43,7 @@
 
  }
  .content-container{
-   padding:160px 20px;
+   padding:60px 20px;
  }
  
  .content h1{
@@ -92,7 +92,7 @@ font-family: "Poppins",sans-serif ;
 .logo{
    max-width: 150px;
 }
-h4{
+h3{
    font-size: 48px;
 }
 nav ul{
